@@ -72,14 +72,14 @@ form button {
     background-color: currentColor;  
 }
 
-.page-footer-top ul li {
-    color: currentColor;
+.page-footer-top ul a {
+    color: white;
     border: 1px solid white;
+    aspect-ratio: 1;
     border-radius: 100%;
-    line-height: 2em;
-    padding: 0 10px;
-    
-}
+    padding: 5px 5px;
+} 
+
 
 .footer-link {
     color: #1CBC9C;
