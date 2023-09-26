@@ -77,7 +77,11 @@ form button {
     border: 1px solid white;
     aspect-ratio: 1;
     border-radius: 100%;
-    padding: 5px 5px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 } 
 
 
