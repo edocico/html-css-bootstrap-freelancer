@@ -19,3 +19,69 @@
     color: white;
     background-color: #2C3E50;
 }
+
+form input {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+textarea {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+form button {
+    background-color: #1CBC9C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    line-height: 2em;
+}
+
+.about a {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.hamburger-menu {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.star {
+    color: currentColor;
+}
+
+.star::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 60px;
+    background-color: currentColor;
+}
+
+.star::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 60px;
+    background-color: currentColor;  
+}
+
+.page-footer-top ul li {
+    color: currentColor;
+    border: 1px solid white;
+    border-radius: 100%;
+    line-height: 2em;
+    aspect-ratio: 1;
+    padding: 0 10px;
+    
+}
+
+.footer-link {
+    color: #1CBC9C;
+}

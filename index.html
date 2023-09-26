@@ -18,8 +18,8 @@
                     <h1 class="h3 text-uppercase">start bootstrap</h1>
                 </div>
                 <div class="col-auto">
-                    <a class="d-lg-none link-light" href="#"><i class="fa-solid fa-bars"></i></a>
-                    <ul class="d-none d-lg-flex justify-content-between list-unstyled gap-4 mb-0">
+                    <a class="hamburger-menu d-lg-none link-secondary fs-5" href="#"><i class="fa-solid fa-bars"></i></a>
+                    <ul class="d-none d-lg-flex justify-content-between list-unstyled gap-4 mb-0 text-uppercase fw-bold">
                         <li><a class="link-light d-block text-decoration-none" href="#">portfolio</a></li>
                         <li><a class="link-light  text-decoration-none" href="#">about</a></li>
                         <li><a class="link-light  text-decoration-none" href="#">contact</a></li>
@@ -42,10 +42,13 @@
                         <img class="img-fluid" src="./img/avatar.svg" alt="avatar image">
                     </div>
                     <div class="col-auto">
-                        <h2 class="text-uppercase">start bootstrap</h2>
+                        <h2 class="text-uppercase fs-1">start bootstrap</h2>
+                    </div>
+                    <div class="col-auto star fs-3 d-flex align-items-center">
+                        <i class="fa-solid fa-star"></i>
                     </div>
                     <div class="col-auto">
-                        <h3 class="text-uppercase">graphic artist - web designer - illustrator</h3>
+                        <h3 class="text-uppercase fs-4">graphic artist - web designer - illustrator</h3>
                     </div>
                 </div>
             </div>
@@ -55,9 +58,12 @@
 
         <section class="portfolio py-5">
             <div class="container">
-                <div class="row justify-content-center my-5">
+                <div class="row flex-column align-items-center row-gap-3 my-5">
                     <div class="col-auto">
                         <h2 class="text-uppercase">portfolio</h2>
+                    </div>
+                    <div class="col-auto star fs-3 d-flex align-items-center">
+                        <i class="fa-solid fa-star"></i>
                     </div>
                 </div>
                 <div class="row row-gap-3">
@@ -87,9 +93,12 @@
 
         <section class="about py-5">
             <div class="container">
-                <div class="row justify-content-center my-4">
+                <div class="row flex-column align-items-center row-gap-3 my-4">
                     <div class="col-auto">
                         <h2 class="text-uppercase">About</h2>
+                    </div>
+                    <div class="col-auto star fs-3 d-flex align-items-center">
+                        <i class="fa-solid fa-star"></i>
                     </div>
                 </div>
                 <div class="row justify-content-center my-4">
@@ -100,7 +109,7 @@
                         <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center my-4">
                     <div class="col-auto">
                         <a class="link-light text-decoration-none" href="#"><i class="fa-solid fa-download"></i> Download</a>
                     </div>
@@ -112,19 +121,22 @@
 
         <section class="contact py-5">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row flex-column align-items-center row-gap-3 mb-4">
                     <div class="col-auto">
                         <h2 class="text-uppercase">Contact me</h2>
+                    </div>
+                    <div class="col-auto star fs-3 d-flex align-items-center">
+                        <i class="fa-solid fa-star"></i>
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-10">
                        <form class="row" action="">
-                        <input class="col-12" type="text" placeholder="Name">
-                        <input class="col-12" type="email" placeholder="Email Address">
-                        <input class="col-12" type="number" placeholder="Phone Number">
-                        <textarea class="col-12" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                        <button class="col-auto">Send</button>
+                        <input class="col-12 py-2" type="text" placeholder="Name">
+                        <input class="col-12 py-2" type="email" placeholder="Email Address">
+                        <input class="col-12 py-2" type="number" placeholder="Phone Number">
+                        <textarea class="col-12 py-2" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        <button class="col-auto mt-2">Send</button>
                        </form>
                     </div>
                 </div>
@@ -139,23 +151,23 @@
         <div class="page-footer-top py-4">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-10 col-lg-4 text-center">
-                        <h3>Location</h3>
+                    <div class="col-10 col-lg-4 text-center my-3">
+                        <h3 class="text-uppercase">Location</h3>
                         <p>2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
-                    <div class="col-10 col-lg-4 text-center">
-                        <h3>Around the web</h3>
-                        <ul class="d-flex list-unstyled gap-4 justify-content-center">
+                    <div class="col-10 col-lg-4 text-center my-3">
+                        <h3 class="text-uppercase">Around the web</h3>
+                        <ul class="d-flex list-unstyled gap-4 justify-content-center fs-4">
                             <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="#"></a><i class="fa-brands fa-google-plus-g"></i></li>
                             <li><a href="#"></a><i class="fa-brands fa-twitter"></i></li>
                             <li><a href="#"></a><i class="fa-brands fa-linkedin-in"></i></li>
                         </ul>
                     </div>
-                    <div class="col-10 col-lg-4 text-center">
-                        <h3>About freelancer</h3>
+                    <div class="col-10 col-lg-4 text-center my-3">
+                        <h3 class="text-uppercase">About freelancer</h3>
                         <p>Freelance is a free to use, open source Bootstrap theme created by
-                            <a href="#">Start Bootstrap</a>
+                            <a class="footer-link text-decoration-none" href="#">Start Bootstrap</a>
                         </p>
                     </div>
                 </div>
