@@ -20,13 +20,7 @@
     background-color: #2C3E50;
 }
 
-form input {
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
-}
-
-textarea {
+form input, textarea {
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
